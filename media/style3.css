@@ -1,0 +1,133 @@
+/*
+.container{
+	display: grid;
+
+	grid-template-areas: "header"
+												"blokabak"
+												"footer";
+	grid-template-columns: 1fr;
+
+}
+
+
+@media screen and (max-width: 900px){
+	.container{
+		grid-template-areas: "header"
+													"blokabak"
+													"footer";
+		grid-template-columns: 100%;
+		grid-template-columns: auto;
+}
+}
+
+
+#blokid {margin: auto;}
+.header  {margin: auto;}
+.footer {margin: auto;}
+*/
+#head  { width: 995px; margin: auto;}
+#blokid {
+	width: 995px;
+
+	height: 610px;
+	margin: auto;
+	/*	margin-left:  430px;*/
+		margin-top: 20px;
+    border: 15px solid #6ba59e;
+}
+h1 {
+	margin: auto;
+	font-size: 12pt
+}
+h2 {
+	margin: auto;
+	margin-top: 10px;
+	font-size: 20pt
+}
+#log22{
+
+	width: 120px;
+	height: 120px;
+	margin-left: -10px;
+	margin-bottom: 0px;
+
+}
+
+#futt {
+	width: 995px;
+	height: 60px;
+  margin: auto;
+/*		margin-left:430px;*/
+		margin-top: 10px;
+    border: 15px solid #6ba59e;
+	/*  position:absolute;*/
+}
+#inpbar {
+	font-size:15pt;
+	width: 440px;
+	height: 52px;
+		margin-left:120px;
+		margin-top: 3px;
+    border: 1px solid #6ba59e;
+}
+#ccc {margin-top: 10px; margin-left:5px; font-size:60pt;}
+#edi {align:right}
+#des {align:right}
+#sot {align:right}
+#tis {align:right}
+#indik { position:absolute; margin-top: -55px;margin-left:400px;}
+#indike { position:absolute; margin-top: -55px;margin-left:400px;}
+#start {position:absolute; margin-top: 6px;margin-left:20px}
+#menuid {position:absolute; margin-top: 20px;margin-left:20px}
+#tru { margin-top: -2px;margin-left:450px}
+#err { margin-bottom: -0px;margin-left:450px}
+
+
+#cif{margin-top: 0px; margin-left:5px; font-size:30pt;}
+#cifs{margin-top: 0px; margin-left:5px; font-size:20pt;}
+
+#cifotv{margin-top: 0px; margin-left:5px; font-size:30pt;}
+#cifotvs{margin-top: 0px; margin-left:5px; font-size:20pt;}
+
+
+
+
+
+
+nav ul li {
+  display:inline-block;	font-size: 20pt;
+}
+
+nav a {
+  color:black;
+  display:block;
+	font-size: 20pt;
+  text-decoration: none;
+  padding:0px 0px;
+  margin-left:100px;
+ }
+
+nav a:hover {
+  background: #6ba59e;
+		font-size: 20pt;
+}
+
+.menu-trigger {
+  display:none;
+  color:#F8ECC2;
+
+}
+
+@media screen and (max-width:500px) {
+  .menu-trigger {
+    display:block;
+  }
+  nav ul li {
+    display:block;
+    border-top:1px #79896D solid;
+
+  }
+  nav ul {
+    display:none;
+  }
+}

@@ -1,0 +1,50 @@
+/*
+alert("rr");
+
+var n;
+n=0;
+wile n<10 {
+n++
+alert(n);
+
+if (edin==n) {
+	abak="ab"+n+".png"
+ $("#edi" ).prop("src","ab1.png"); 
+   };	
+};
+
+// var str= "12345524";
+ /*
+var leng
+leng=a.length;  //длинна строки
+edin=a.substring(leng-1,leng) //вывод посоднего
+desi=a.substring(leng-2,leng-1)
+sotn=a.substring(leng-3,leng-2)
+tisi=a.substring(leng-,leng-3)
+*/
+//document.write(ciff);
+
+///$("#cifotv").keyup(function() {
+// alert(ciff);
+ //if (ciff==$(this).val() {
+// alert(ciff);
+ // };
+//alert("не правильно");  
+//});
+
+
+
+
+
+
+
+
+.menu-trigger {
+  display:none;
+  color:#F8ECC2;
+  line-height: 40;
+  font-size:20;
+  margin-top:32;
+  border:1px, solid;
+  position: absolute;
+  }

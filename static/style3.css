@@ -1,0 +1,72 @@
+
+
+tr td {
+  margin-top: 20px;
+	color:red;
+	font-size:22px;
+
+	}
+ul li {
+display:inline-block;
+margin-left: 40px;
+margin-top: 30px;
+font-size: 20pt;
+	}
+#rez_m2 {position:absolute; margin-top: 50px;margin-left:-100px}
+#cifs   {position:absolute; margin-top: -35px;margin-left:100px}
+#cifotvs {position:absolute; margin-top: -35px;margin-left:100px}
+#indik  {position:absolute; margin-top: -35px;margin-left:900px}
+#indike  {position:absolute; margin-top: -35px;margin-left:900px}
+#rez_m {display:block;	margin-left:30px;  margin-top: -20px; text-decoration: none;}
+#rez_m:hover { background: #6ba59e;	font-size: 20pt;}
+#pech {position:absolute; margin-top: 10px;margin-left:890px; font-size: 20pt}
+
+
+#edi {width: 220px ; height: 570px ;align:right}
+#des {width: 220px ; height: 570px ;align:right}
+#sot {width: 220px ; height: 570px ;align:right}
+#tis {width: 220px ; height: 570px ;align:right}
+	#lo {
+		position:absolute; margin-left: 550px;
+	}
+#menuid {position:absolute; margin-top: 50px;margin-left:-100px}
+#log22{
+
+	width: 100px;
+	height: 100px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+#head  { width: 1022px; margin: auto;margin-top: 10px;}
+#tabb  { width: 1300px; margin-top: 20px; margin: auto;}
+#blokid {
+		width: 990px;
+
+	height: 610px;
+	margin: auto;
+	/*	margin-left:  430px;*/
+		margin-top: -10px;
+    border: 15px solid #6ba59e;
+}
+h1 {
+	margin: auto;
+	font-size: 22pt
+}
+h2 {
+	margin: auto;
+	margin-top: 10px;
+	font-size: 20pt
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  }
+.container {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+}

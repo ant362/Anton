@@ -1,0 +1,93 @@
+﻿{% extends 'main/base.html' %}
+
+{% block title %}
+Тренажор
+{% endblock %}
+
+{% block content %}
+
+
+<div class="container">
+    <script type="text/javascript" src="{{ STATIC_URL }}static/jspdf.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}static/style3.css"/>
+    <img align=left align=top src="/media/2-2.jpg"  id="log22" >
+    <h1 id="hh1" align=center>Дважды Два - Центр Ментальной Арифметики в Минске</h1>
+    <h2 align=center >ФЛЕШ ТЕСТ</h2>
+    <div id="pech" align=right> <a  href="" onclick="this.style.display='none'; print()">Печать</a> </div>
+   <!-- <div id="pech" align=right> <a id="p_pdf" href="#" >Печать PDF</a> </div>-->
+
+    <nav class="menu">
+
+        <ul>
+            <li><a id="rez_m" href="#">Режим 1</a></li>
+            <li><a id="rez_m" href="#">
+                <span>Разряд : </span>
+                <span id="raz_minus"> < </span>
+                <span id="raz_show"> 4 </span>
+                <span id="raz_plus"> > </span>
+
+            </a></li>
+        <!--    <li><a id="tim_m" href="#"> --!>
+                <li><a id="rez_m" href="#">
+                <span>Время:</span>
+                <span id="sek_minus"><</span>
+                <span id="seku_show">7.0</span>
+                <span>cек</span>
+                <span id="sek_plus">></span>
+            </a></li>
+        </ul>
+    </nav>
+
+
+
+
+<div id="blokid" class="blokabak" align=center >
+<div id="blokid_s" class="content" >
+<img class="sho" align=centr src="/media/abb0.png"  id="tis"  alt="jQuery">
+<img class="sho" align=centr src="/media/abb0.png"  id="sot"  alt="jQuery">
+<img class="sho" align=centr src="/media/abb0.png"  id="des"  alt="jQuery">
+<img class="sho" align=centr src="/media/abb0.png"  id="edi"  alt="jQuery">
+
+
+</div>
+</div>
+
+  <div id="futt"  class="footer">
+
+  <img src="/media/start.jpg"  id="start" alt="меню" width="45px" height="45px">
+            <div id="inpbar">
+
+                  <div id="cifs">
+                  <b>ЧИСЛО:</b><input type="string" min="0" max="9999" size="4" id="cif"/>
+                  </div>
+
+                  <div id="cifotvs">
+                  <b >ВВЕДИТЕ ЧИСЛО:</b><input type="number" min="0" max="9999" size="4"  id="cifotv" autofocus />
+                 <audio class="my_audio" autoplay="autoplay" >
+				
+				  </audio>
+                
+				  </div>
+
+            </div>
+
+            <div id="indik">
+                <img src="/media/tru.jpg"  id="tru" alt="g55" width="60px" height="60px">
+            </div>
+
+            <div id="indike">
+                <img src="/media/error.png"  id="err" alt="p99" width="60px" height="60px">
+            </div>
+
+<div id="nov"></div>
+  </div>
+
+</div>
+
+<script type="text/javascript" src="{{ STATIC_URL }}static/jquery.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}static/script2.js"></script>
+<!--<script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}static/canvas2image.js"></script>-->
+
+
+{% endblock %}
